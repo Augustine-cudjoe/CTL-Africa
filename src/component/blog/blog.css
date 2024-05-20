@@ -1,0 +1,11 @@
+
+#blog-link{text-decoration: none;}
+@media (min-width:768px) and (max-width:1040px) {
+    #blog{padding-inline: 40px !important;}
+    #blog-lists{
+      width: 100% !important;
+    }
+    .blog-title{font-size: 0.8rem !important;}
+    .blog-date{ font-size: 0.7rem !important;}
+    
+}

@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  /* overflow-x: hidden !important; */
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+html body {
+  margin: 0;
+  padding: 0;
+  background: #F5F5F5;
+  overflow-x: hidden !important;
+}
+
+Link{text-decoration: none;}
+
+
+@media only screen and (max-width:1024px){
+  .container{
+      @apply w-full
+  }
+  section{
+      @apply py-[35px]
+  }
+}
+
+@media only screen and (max-width:768px){
+.heading{
+  @apply text-[26px] leading-[36px]
+}
+.text__para{
+  @apply text-[16px] leading-7 mt-3
+}
+.container{
+  @apply w-full px-5
+}
+.header{
+  @apply  h-[85px] leading-[60px]
+}
+section{
+  @apply py-[15px]
+}
+}

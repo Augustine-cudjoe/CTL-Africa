@@ -1,0 +1,11 @@
+@media (min-width:768px) and (max-width:1040px) {
+    
+    /*hero-sec*/
+    #singlelibrary-left{
+        width: 80%;
+    }
+    .libra-head{width: 80% !important;}
+    #slider-hol{margin-left: 10px;}
+    #similar-slider{width: 97%;}
+    #slider-img{padding: 20px;}
+}

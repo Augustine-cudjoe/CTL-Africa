@@ -1,0 +1,30 @@
+
+.next-button{
+ --tw-bg-opacity:1;
+  background-color: rgb(103 26 105 /var(--tw-bg-opacity));
+}
+
+@media (min-width:768px) and (max-width:1040px) {
+  .course-hero p:nth-child(2){
+    font-size: 1.5rem !important;
+    width: 80%;
+  }
+  .course-single-card div:nth-child(1){
+    width: 90%;
+  }
+  #all-input{width: 30% !important;}
+  #all-select{width: 30%;}
+  #all-slider {height: auto;}
+  #all-slider div:nth-child(2){padding-inline: 10px !important;} 
+  #all-slider p:nth-child(1),#all-slider p:nth-child(2){
+    font-size: 0.8rem;
+
+  }
+  
+}
+@media (max-width:767px) {
+  #sub-para{
+    width: 80% !important;
+  }
+  
+}

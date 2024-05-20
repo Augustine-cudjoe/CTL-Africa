@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+#root{padding: 0 !important;}
+header{
+   min-width: 100%;
+}
+/*bg-access home-hero*/
+
+#navmenu{text-decoration: none;}
+Link{text-decoration: none;}
+.bg-access{
+    --tw-bg-opacity:1;
+    background-color:rgb(220 214 253 );
+}
+/*home-content*/
+.orange-color{
+    --tw-bg-opacity:1;
+    color: rgb(254 213 0 /var(--tw-bg-opacity) );
+}
+
+@media (min-width:768px) and (max-width:1040px){
+    /*navba*/
+   
+    /*navba*/
+
+
+    .home-nav{ justify-content: start !important;}
+    /*emotional*/
+    #discover{width: 90%; font-size: 2rem;}
+    #emotional{
+        padding-inline: 10px;
+    }
+    .emotional{
+        width: 95%;
+    }
+    /*montor*/
+    #montor{
+        width: 98%;
+        margin-inline: 10px;
+    }
+    #left-hold{padding: 20px;}
+    #right-hold{padding-inline: 10px; }
+    /*embrace-content-images*/
+    #embrace-content{width: 95%;}
+    #embrace-content-images{padding: 10px;}
+    #Transformational{width: 95%;}
+    .Transformational{width: 95%;}
+    /*testimonial-slider*/
+    .testimonial-slider{
+        padding-bottom: 0;
+    }
+    .profile{font-size: 0.8rem !important;}
+    #testimonial-slider-holder{ margin-left: 20px !important;}
+    /*price-card*/
+    .price-card{
+       width: 95% !important;
+    }
+    .price-card .paragrap{font-size: 0.8rem !important; width: 94%; text-align: start !important;}
+    .paragrap-price{font-size: 1.1rem !important;}
+    .paragrap-button{ width: 98% !important;}
+    .price-card{width: 98%;}
+
+    /*team-holder*/
+    .team-holder{width: 95%;  }
+     #team-left{width: 60% !important; height: 100% !important; }
+  
+     .name{font-size: 0.8rem !important;}
+     .team-right-para,.team-left-para{width: 98% !important; font-size: 0.5rem !important; margin-bottom: 20px;}
+    #team-right{width: 40% !important; height: 100% !important;}
+   
+    
+    /*contact-form*/
+    .contact-form{min-width: 100% !important;}
+    .form-holder input, 
+    .form-holder textarea{width: 100% !important; }
+   
+}

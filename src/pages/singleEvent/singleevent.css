@@ -1,0 +1,30 @@
+@media (min-width:768px) and (max-width:1040px) {
+    .singleEvent{ min-height: 250% !important;}
+
+     /*left-sec*/
+     .about-single-event-holder{padding-inline: 10px !important;}
+     #hood{gap: 30px;}
+     .about-left-img-holder{
+        width: 200px !important;
+        
+     }
+     .about-event-right-holder{width: 80%;}
+     .about-event-right-holder p{width: 98% !important;}
+
+  .agenda-list{ padding-inline: 20px; }
+  .first-day{width: 100% !important;}
+  #agenda-card-hold{padding: 20px; display: inline-block !important;}
+  #agenda-card,#agenda-card2,#agenda-card3{ width: 90%; padding-right: 0 !important; margin-inline: 20px; text-align: center;}
+  /*prices*/
+  .event-price-list{ padding-inline: 30px;}
+  .single-event-prices{
+    width: 100% !important ;
+  }
+  .price-des{width: 80% !important;}
+  .price-but{width: 80% !important;}
+  /*single-event-contact*/
+  .contact-left-k{width: 50% !important;}
+  .single-event-contact{padding-inline: 10px;}
+  .left-contat{width: 90% !important;}
+  input,textarea{width: 100% !important;}
+}

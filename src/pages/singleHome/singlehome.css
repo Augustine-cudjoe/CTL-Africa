@@ -1,0 +1,19 @@
+@media (min-width:768px) and (max-width:1040px) {
+
+    #singlehome-left{padding-inline: 50px;}
+    #single-right-content{width: 40%;}
+    #single-hero{width: 50%;}
+    #singlehome-right{width: 10% !important;}
+    .single-com{width: 50%;}
+    .single-hero{padding-right: 20px;}
+    .single-hero-card{  width: 100% !important;}
+    .singlecourses-hero-text{font-size: 2rem !important; padding-left: 20px; width: 90% !important;}
+    .courses-hero-paragraph{width: 70% !important; padding-left: 20px;}
+    .instructor{padding-left: 20px;}
+    #single-courses-button{padding-left: 20px;}
+    #bi-play-circle{
+        right: 40% !important;
+    }
+    .single-testimonial-slider{height: 900px !important;}
+    
+}

@@ -1,0 +1,17 @@
+
+
+@media (min-width:768px) and (max-width:1040px){
+    #library-icons{padding:40px 10px; margin-top: 120px;}
+    #library-form{margin-inline: 20px !important;}
+    #library-form input{width: 100%;}
+    #library-books{width: 100%;}
+    #library-books .inner-image{width: 80%;}
+    #library-h{padding-bottom: 0 ;}
+    #library-yellow{height: 40%;}
+    
+}
+@media (max-width:767px) {
+    #library-acc{width: 90%;}
+    #library-h{padding-bottom: 0 ;}
+
+}

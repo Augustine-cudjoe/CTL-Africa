@@ -1,0 +1,26 @@
+
+
+#price-link,
+#price-link1,
+#price-link2{text-decoration: none;}
+@media (min-width:768px) and (max-width:1040px) {
+    #price-holder{padding-inline: 20px;}
+    .prices-price{
+        width: 100% !important;
+        padding-inline: 10px !important;
+    }
+    ul li{ font-size: 0.8rem;}
+    .price-btn{width: 100% !important;}
+    .prices-price-pa{width: 100% !important;}
+    
+    /*prices-icon-holder*/
+    .prices-icon-holder{padding-inline: 20px !important;}
+    .prices-icon-content{
+        width: 96% !important;
+        min-height: 100%;
+    }
+    .icon-holdr,.img-holder{
+        padding: 6px;
+    }
+   
+}

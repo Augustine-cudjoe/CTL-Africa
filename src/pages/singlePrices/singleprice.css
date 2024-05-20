@@ -1,0 +1,8 @@
+@media (min-width:768px) and (max-width:1040px){
+    .singleprices{ min-height:3000px !important;}
+    .single-price-left{padding-inline: 30px !important;}
+   
+}
+@media (max-width:767px) {
+    .singleprices{ min-height: 10000px;}
+}
