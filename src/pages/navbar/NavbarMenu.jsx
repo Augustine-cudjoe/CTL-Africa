@@ -183,7 +183,7 @@ export default function HomeComponent() {
               </Link>
             </li>
             <li className='text-base text-[#86868B] font-normal pl-4'>
-              <Link to="/prices" style={{textDecoration:"none"}} >
+              <Link to="/courses" style={{textDecoration:"none"}} >
                  <p className=" flex flex-row  justify-start items-center gap-2 text-base font-medium text-[#1D1D1F]">
                 
                  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" 
@@ -197,7 +197,7 @@ export default function HomeComponent() {
             </li>
           
             <li className='text-base text-[#86868B] font-normal pl-4'>
-              <Link to="#" style={{textDecoration:"none"}} >
+              <Link to="/library" style={{textDecoration:"none"}} >
                  <p className="flex flex-row  justify-start items-center gap-2 text-base font-medium text-[#1D1D1F]">
                  <svg stroke="currentColor" fill="currentColor" strokeWidth="0" 
                   viewBox="0 0 256 256" className=" ms-md-0 ps-md-0 me-3" height="1em"
@@ -210,7 +210,7 @@ export default function HomeComponent() {
               </Link>
             </li>
             <li className='text-base text-[#86868B] font-normal pl-4'>
-              <Link to="#" style={{textDecoration:"none"}} >
+              <Link to="/blog" style={{textDecoration:"none"}} >
                  <p className="flex flex-row  justify-start items-center gap-2 text-base font-medium text-[#1D1D1F]">
                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-people me-3" viewBox="0 0 16 16">
                    <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1zm-7.978-1L7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002-.014.002zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4m3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0M6.936 9.28a6 6 0 0 0-1.23-.247A7 7 0 0 0 5 9c-4 0-5 3-5 4q0 1 1 1h4.216A2.24 2.24 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816M4.92 10A5.5 5.5 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0m3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4"/>
@@ -221,7 +221,7 @@ export default function HomeComponent() {
               </Link>
             </li>
             <li className='text-base text-[#86868B] font-normal pl-4'>
-              <Link to="#"  style={{textDecoration:"none"}}>
+              <Link to="/events"  style={{textDecoration:"none"}}>
                  <p className="flex flex-row  justify-start items-center gap-2 text-base font-medium text-[#1D1D1F]">
                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-star me-3" viewBox="0 0 16 16">
                <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z"/>
@@ -232,7 +232,7 @@ export default function HomeComponent() {
               </Link>
             </li>
             <li className='text-base text-[#86868B] font-normal pl-4'>
-              <Link to="#" style={{textDecoration:"none"}} >
+              <Link to="/prices" style={{textDecoration:"none"}} >
                  <p className="flex flex-row  justify-start items-center gap-2 text-base font-medium text-[#1D1D1F]">
                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-person me-3" viewBox="0 0 16 16">
                     <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/>
@@ -257,7 +257,7 @@ export default function HomeComponent() {
               </Link>
             </li>
             <li className='flex  pl-4'>
-              <Link to="#" style={{textDecoration:"none"}} >
+              <Link to="/" style={{textDecoration:"none"}} >
                  <p className="flex justify-start items-center gap-2 text-base font-medium cursor-pointer text-[#C01F1F]">
                  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" className="bi bi-box-arrow-right text-base font-medium " viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0z"/>
