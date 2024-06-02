@@ -66,7 +66,7 @@ function Prices() {
 
                   <div className="my-10 ">
                    
-                  <div className="flex flex-row justify-center items-center bg-[#F3F4F6] border  p-2 w-[288px] rounded-md gap-5 ">
+                  <div className="flex hidden flex-row justify-center items-center bg-[#F3F4F6] border  p-2 w-[288px] rounded-md gap-5 ">
                    <button onClick={()=>changeBackground(1)}   
                    className={` text-sm font-medium  p-3 rounded-md text-sm transition-all duration-300 
                     ${background? "  bg-white" : "bg-[#F3F4F6] "} ` } >Bill Montly </button>
