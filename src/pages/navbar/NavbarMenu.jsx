@@ -362,7 +362,7 @@ export default function HomeComponent() {
 
                 {/* member */}
                 <div className="ml-2 md:mr-2 flow-root md:block hidden lg:ml-6 pr-2">
-                  <button href="#" className="group -m-2 flex   text-white w-[200px] items-center p-2 text-sm lg:text-base ">
+                  <button href="#" className="group -m-2 flex bg-white   text-[#531554] w-[200px] items-center p-2 text-sm lg:text-base ">
                     <span className='mx-auto'> Become a member</span>
                 
                   </button>
