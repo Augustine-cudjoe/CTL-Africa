@@ -287,6 +287,9 @@ export default function HomeComponent() {
             
 
               {/* Logo */}
+            
+              <div className="md:flex items-center hidden ">
+                {/* Logo */}
               <div className=" flex ml-0">
                 <NavLink to="/">
                   
@@ -298,17 +301,17 @@ export default function HomeComponent() {
                 </NavLink>
               </div>
 
-              {/* left menus */}
-              
-                <div className={` hidden md:flex h-full md:space-x-2 lg:space-x-8 ${toggle? " hidden":" "}`}>
-                 
+              {/* Flyout menus */}
+             
+                <div className={` flex h-full space-x-2 lg:space-x-8 ${toggle? " hidden":" "}`}>
+                  
 
-                  {navigation.pages.map((page) => (
-                    <NavLink  to={page.href} key={page.name}  style={{textDecoration:"none"}}>
+                  {navigation.pages.map(page => (
+                    <NavLink to={page.href} key={page.name} id='navLink'>
                       <p
                       
-                     
-                      className="py-5 flex justify-between items-center md:pr-0 pr-5 group text-white  hover:text-[#aeaeaeb3]"
+                      
+                      className="flex items-center text-sm font-semibold text-white hover:text-gray-800 "
                     >
                       {page.name}
                     </p>
@@ -316,18 +319,21 @@ export default function HomeComponent() {
                   ))}
                 </div>
               
+             </div>
 
-               <div className={`md:ml-[1px] lg:ml-auto flex items-center ${toggle? "w-full flex justify-end items-end ":" "}`} >
-                <div className=" lg:flex lg:flex-1 lg:items-center lg:justify-end lg:space-x-6 space-x-2">
+              {/* left menus */}
+              
+              <div className={`md:ml-[1px] lg:ml-auto flex items-center ${toggle? "w-10/12 flex justify-end items-end ":" "}`}>
+                <div className=" lg:flex lg:flex-1 lg:items-center lg:justify-end lg:space-x-6 ">
                  
                   {!toggle && ( 
           
-                <a className="text-sm font-medium text-white hover:text-[#aeaeaeb3]  " href="#"   aria-disabled="true" onClick={() =>setToggle(!toggle)}><BsSearch  className="text-white hover:text-[#aeaeaeb3]"/></a>
+                <a className="text-sm font-medium text-white hover:text-gray-800  " href="#"   aria-disabled="true" onClick={() =>setToggle(!toggle)}><BsSearch /></a>
                  )
             }   {
               toggle && (
-                <div className=" relative w-4/6 ml-0">
-                <input type="text " className="border border-[#E9E9E9] w-full p-2 rounded-md " placeholder="Search..."/>
+                <div className=" relative w-full ml-0">
+                <input type="text " className="border border-[#E9E9E9] w-full p-2 rounded-md outline-none" placeholder="Search..."/>
                 <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" className="bi bi-x-circle text-[#531554] absolute right-3 top-3" viewBox="0 0 16 16" onClick={() =>setToggle(!toggle)}>
                  <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
@@ -339,28 +345,25 @@ export default function HomeComponent() {
                 </div>
                 
   
-                <div className="md:mx-2 lg:ml-3 lg:flex">
-                  <NavLink to="/login" className="flex items-center text-white hover:text-[#aeaeaeb3] navmenu "  style={{textDecoration:"none"}} >
+                <div className="md:ml-1 lg:ml-8  lg:flex">
+                  <NavLink to="/login" className="flex items-center font-semibold text-white hover:text-gray-800" style={{textDecoration:" none"}}>
                    Login
                     
                   </NavLink>
                 </div>
 
                 {/* dashboard */}
-                <div className="flex lg:ml-3">
-                  <NavLink  to="/dashboard" className="navmenu" style={{textDecoration:"none"}}>
-                  <p  className="p-2 text-white hover:text-[#aeaeaeb3]">
+                <div className=" hidden md:flex lg:ml-6">
+                  <NavLink to="/dashboard" className="p-2 text-white hover:text-gray-500 font-semibold text-sm lg:text-base" style={{textDecoration:" none"}}>
                      Dashboard
                     
-                  </p>
                   </NavLink>
-                
                 </div>
 
                 {/* member */}
-                <div className="ml-4 flow-root lg:ml-3 text-center">
-                  <button href="#" className="group  flex text-[#531554]  w-[200px] py-3 text-center  bg-white mx-auto ">
-                    <span className=" text-center mx-auto"> Become a member</span>
+                <div className="ml-2 md:mr-2 flow-root md:block hidden lg:ml-6 pr-2">
+                  <button href="#" className="group -m-2 flex   text-white w-[200px] items-center p-2 text-sm lg:text-base ">
+                    <span className='mx-auto'> Become a member</span>
                 
                   </button>
                 </div>

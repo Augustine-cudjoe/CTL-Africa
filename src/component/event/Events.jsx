@@ -61,7 +61,7 @@ function Events() {
         title:" Leadership Excellence Summit",
         date:" Nov 12, 2023  ",
         describ:"This seminar is designed to empower current and aspiring leaders with the skills and knowledge needed to excel in today's dynamic business environment ",
-        country:"South Africa"
+        country:"Africa"
        
        },
        {  id:1,

@@ -341,7 +341,7 @@ function Courses() {
                 <div className=" md:grid md:grid-cols-4 flex flex-col gap-4  md:mx-0 mx-3 md:px-16">
                              {
                                 cousList.map(tes=>(
-                                     <Link to={`/singleCourses/${tes.id}`} key={tes.id} >
+                                     <Link to={`/singleCourses/${tes.id}`} key={tes.id}  style={{textDecoration:"none"}}>
                                         <div   className='max-w-sm bg-#FFFDF4 border border-gray-200 rounded-lg shadow md:h-[421.62px] grid grid-rows-[1fr auto]' id='all-slider'>
                                        <img src={tes.img} className='rounded-t-lg md:w-[384.51px] md:h-[214.73px] h-[172px '/>  
                                        <div className="p-5 text-start items-start ">

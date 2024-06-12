@@ -195,7 +195,7 @@ function OtherNav() {
               
              </div>
 
-              <div className={`md:ml-[1px] lg:ml-auto flex items-center ${toggle? "w-[11/12] flex justify-end items-end ":" "}`}>
+              <div className={`md:ml-[1px] lg:ml-auto flex items-center ${toggle? "w-10/12 flex justify-end items-end ":" "}`}>
                 <div className=" lg:flex lg:flex-1 lg:items-center lg:justify-end lg:space-x-6 ">
                  
                   {!toggle && ( 
